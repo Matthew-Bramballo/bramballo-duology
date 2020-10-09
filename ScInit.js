@@ -182,5 +182,8 @@ class ScInit extends Phaser.Scene   {
         this.tweenAmount += 0.1;
         preloadTextObject.x = 960 + Math.sin(this.tweenAmount);
         preloadTextObject.angle = Math.sin(this.tweenAmount) * 2
+        gameInstance.scale.pageAlignHorizontally = true;
+        gameInstance.scale.pageAlignVertically = true;
+        gameInstance.scale.refresh();
     }
 }

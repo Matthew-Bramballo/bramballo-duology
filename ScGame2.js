@@ -251,5 +251,9 @@ class ScGame2 extends Phaser.Scene {
             }
         }
         videoPosition = videoInstance.getCurrentTime();
+
+        gameInstance.scale.pageAlignHorizontally = true;
+        gameInstance.scale.pageAlignVertically = true;
+        gameInstance.scale.refresh();
     }
 }

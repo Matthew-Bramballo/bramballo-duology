@@ -39,5 +39,8 @@ class ScMenu extends Phaser.Scene   {
     update()    {
         this.menuLogo.angle = Math.sin(this.tweenValue) * 0.6;
         this.tweenValue += 0.01;
+        gameInstance.scale.pageAlignHorizontally = true;
+        gameInstance.scale.pageAlignVertically = true;
+        gameInstance.scale.refresh();
     }
 }
