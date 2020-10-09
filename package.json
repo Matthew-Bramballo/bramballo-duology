@@ -1,0 +1,10 @@
+{
+    "name": "matthew-bramballo-duology",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Matthew Bramballo",
+    "electronVersion": "10.0.0",
+    "devDependencies": {
+        "electron": "^10.0.0"
+    }
+}
