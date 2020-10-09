@@ -19,7 +19,7 @@ class ScMenu extends Phaser.Scene   {
         }).setOrigin(0.5)
 
         new TextButton(this, 960, 960, "Quit", {}, () => {
-            window.close();
+            this.funnyno.play();
         }).setOrigin(0.5)
 
         // Draw Menu Background

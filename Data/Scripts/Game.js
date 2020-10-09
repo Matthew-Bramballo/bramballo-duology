@@ -11,7 +11,8 @@ window.onload = function () {
         scale: {
             mode: Phaser.Scale.FIT,
         },
-        autoRound: false
+        autoRound: false,
+        autoCenter: Phaser.Scale.CENTER_BOTH
     }
     gameInstance = new Phaser.Game(gameConfig);
     gameInstance.canvas.parentElement.style.backgroundColor = "#000000";
